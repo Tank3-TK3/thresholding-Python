@@ -2,7 +2,7 @@ import cv2
 from matplotlib import pyplot as plt
 import numpy as np
 
-img1 = cv2.imread('./img/popo.bmp',2)
+img1 = cv2.imread('imagen.extencion',2)
 img3 = np.zeros(img1.shape,dtype=np.int32)
 
 for i in range(img1.shape[0]):
